@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+  </head>
+  <body bgcolor="E8E0D0">
+    <h2><i>Welcome! Please enter your credentials to continue. </i></h2>
+    <table>
+      <tr>
+        <td>
+          <img src="imgs/home.png" alt="login" width="250px" height="500px" />&nbsp; &nbsp;&nbsp; &nbsp;
+        </td>
+        
+        <td>
+          <div>
+            <center><h2>Get Started</h2></center>
+            <form action="About.html" autocomplete="off">
+              <div>
+                <label> User Name</label>
+                <input
+                  type="text"
+                  name="name"
+                  required
+                  placeholder="Enter username"
+                />
+              </div>
+              <br />
+              <div>
+                <label> Email Name </label>
+                <input
+                  type="email"
+                  name="Email"
+                  placeholder="nn@n.n"
+                  required
+                />
+              </div>
+              <br />
+              <div>
+                <label> Pass Worrrd</label>
+                <input type="password" required />
+              </div>
+              <br />
+              <div>
+                <label>phone numb</label>
+                <input type="tel" required />
+              </div>
+              <br />
+              <div>
+                <label> Date Biirrth</label>
+                <input type="date" />
+              </div>
+              <br />
+              <div>
+                <label for="ma">Male</label>
+                <input
+                  type="radio"
+                  name="gend"
+                  value="Male"
+                  id="ma"
+                  required
+                />&nbsp; &nbsp;
+                <label for="fem">Female</label>
+                <input
+                  type="radio"
+                  name="gend"
+                  value="Female"
+                  id="fem"
+                  required
+                />
+              </div>
+              <br />
+              <div>
+                <label for="books"> Choose BOOKS :</label>
+                <select id="books" name="books">
+                  <option value="fiction">Fiction</option>
+                  <option value="history">history</option>
+                  <option value="biography">biography</option>
+                  <option value="mystery">Mystery</option>
+                  <option value="romance">Romance</option>
+                  <option value="science">Science</option>
+                </select>
+              </div>
+              <br />
+              <br />
+
+              <input type="submit" />
+            </form>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
